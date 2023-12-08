@@ -1,0 +1,6 @@
+g++ -std=c++11 -pthread -o test main.cpp
+#测试数据在main函数中生成
+#file*.txt是生成的测试数据，output.txt是排序结果输出
+#const size_t totalFiles = 10;//文件数
+#const size_t totalDataPerFile = 1000;//文件样本数
+#int64_t num = rand() % 2000000 - 1000000;//随机数的生成范围
