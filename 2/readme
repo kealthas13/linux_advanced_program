@@ -1,0 +1,3 @@
+g++ -std=c++11 -pthread -o test main.cpp
+#测试在main函数中
+#可以运行时后缀指定目录
